@@ -1,0 +1,348 @@
+- name: burr
+  parameters:
+  - name: shape1
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape2
+    value: 1.5
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1000000.0
+    min_value: 0.0
+    max_value: .inf
+- name: exp
+  parameters:
+  - name: rate
+    value: 0.0000005
+    min_value: 0.0
+    max_value: .inf
+- name: fpareto
+  parameters:
+  - name: min
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape1
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape2
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape3
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: gamma
+  parameters:
+  - name: shape
+    value: 100.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 100000.0
+    min_value: 0.0
+    max_value: .inf
+- name: genbeta
+  parameters:
+  - name: shape1
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape2
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape3
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: genpareto
+  parameters:
+  - name: shape1
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape2
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: invburr
+  parameters:
+  - name: shape1
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape2
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: invexp
+  parameters:
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: invgamma
+  parameters:
+  - name: shape
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: invgauss
+  parameters:
+  - name: mean
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: dispersion
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: invparalogis
+  parameters:
+  - name: shape
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: invpareto
+  parameters:
+  - name: shape
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: invtrgamma
+  parameters:
+  - name: shape1
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape2
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: invweibull
+  parameters:
+  - name: shape
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: lgamma
+  parameters:
+  - name: shapelog
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: ratelog
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: lgompertz
+  parameters:
+  - name: shape
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: llogis
+  parameters:
+  - name: shape
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: lnorm
+  parameters:
+  - name: meanlog
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: sdlog
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: paralogis
+  parameters:
+  - name: shape
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: pareto
+  parameters:
+  - name: shape
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: pareto1
+  parameters:
+  - name: shape
+    value: 1.1
+    min_value: 0.1
+    max_value: 10.0
+  - name: min
+    value: 100000.0
+    min_value: 0.0
+    max_value: .inf
+- name: pareto2
+  parameters:
+  - name: min
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: pareto3
+  parameters:
+  - name: min
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: pareto4
+  parameters:
+  - name: min
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape1
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape2
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: pearson6
+  parameters:
+  - name: shape1
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape2
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape3
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: trbeta
+  parameters:
+  - name: shape1
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape2
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape3
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: trgamma
+  parameters:
+  - name: shape1
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: shape2
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1.0
+    min_value: 0.0
+    max_value: .inf
+- name: weibull
+  parameters:
+  - name: shape
+    value: 0.5
+    min_value: 0.0
+    max_value: .inf
+  - name: scale
+    value: 1000000.0
+    min_value: 0.0
+    max_value: .inf
